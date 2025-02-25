@@ -4,8 +4,8 @@ function CategoryButtons({ setCategory }) {
   return (
     <div>
       <select onChange={(e) => setCategory(e.target.value)}>
-        <option value="sheap">Арзан тамак</option>
-        <option value="expensive"> Кымбат тамак</option>
+        <option value="cheapFoods">Арзан тамак</option>
+        <option value="expensiveFoods"> Кымбат тамак</option>
       </select>
     </div>
   );
