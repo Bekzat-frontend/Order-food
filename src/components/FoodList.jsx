@@ -1,9 +1,11 @@
 import React from "react";
 
-function FoodList(category) {
+function FoodList({ category }) {
   const cheapFoods = ["Бууз", "Лагман", "Самса"];
   const expensiveFoods = ["Стейк", "Лобстер", "Суши"];
-  const foods = category === "cheap" ? cheapFoods : expensiveFoods;
+  const foods = category === "cheap" ? expensiveFoods : cheapFoods;
+  console.log(foods);
+
   return (
     <div>
       <ul>
