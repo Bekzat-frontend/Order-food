@@ -1,11 +1,8 @@
 import React from "react";
 import FoodMenu from "./components/FoodMenu";
+
 function App() {
-  return (
-    <div>
-      <FoodMenu />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
