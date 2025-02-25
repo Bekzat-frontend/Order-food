@@ -2,7 +2,11 @@ import React from "react";
 import FoodMenu from "./components/FoodMenu";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <FoodMenu />
+    </div>
+  );
 }
 
 export default App;
