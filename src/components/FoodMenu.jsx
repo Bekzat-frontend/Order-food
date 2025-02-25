@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CategoryButtons from "./CategoryButtons";
 import FoodList from "./FoodList";
 function FoodMenu() {
-  const [category, setCategory] = useState("sheap");
+  const [category, setCategory] = useState("cheap");
 
   return (
     <div>
